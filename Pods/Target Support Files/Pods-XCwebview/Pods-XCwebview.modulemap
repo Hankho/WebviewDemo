@@ -1,0 +1,6 @@
+framework module Pods_XCwebview {
+  umbrella header "Pods-XCwebview-umbrella.h"
+
+  export *
+  module * { export * }
+}
