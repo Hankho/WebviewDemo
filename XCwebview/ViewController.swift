@@ -62,7 +62,7 @@ class ViewController: UIViewController,UIWebViewDelegate {
                         if(myString != version){
                             let alertView = UIAlertController(title: "提示", message: "請更新版本", preferredStyle: .alert)
                             let action = UIAlertAction(title: "確定", style: .default, handler: { (alert) in
-                                if let checkURL = NSURL(string: "https://itunes.apple.com/tw/app/bbin/id1149782445?mt=8") {
+                                if let checkURL = NSURL(string: (self.obj?.downloadUrl)!) {
                                     if UIApplication.shared.openURL(checkURL as URL) {
                                         exit(0)
                                     }
@@ -74,10 +74,8 @@ class ViewController: UIViewController,UIWebViewDelegate {
                         }
                     }
                 }
-                
                 self.setuptopControls()
-                self.setupWebview()                
-                
+                self.setupWebview()
             }
         }) { (str) in
             DispatchQueue.main.async {
@@ -86,19 +84,14 @@ class ViewController: UIViewController,UIWebViewDelegate {
             }
         }
     }
-    
+
     func webViewDidStartLoad(_ webView: UIWebView) {
         HTTPCookieStorage.shared.cookieAcceptPolicy = HTTPCookie.AcceptPolicy.always
         if let text = webView.request?.url?.absoluteString{
             print(text)
-            if (text.hasPrefix("http://link.sz258.net/app/WebService/XML/display.php/") ) {
-                if let url = URL(string: text) {
-                    UIApplication.shared.open(url)
-                    webView.goBack()
-                }
-            }
         }
     }
+    
     func webViewDidFinishLoad(_ webView: UIWebView) {
         HTTPCookieStorage.shared.cookieAcceptPolicy = HTTPCookie.AcceptPolicy.always
         if let text = webView.request?.url?.absoluteString{
@@ -108,14 +101,8 @@ class ViewController: UIViewController,UIWebViewDelegate {
     
     func setuptopControls() {
         
-        //        let prevbutton = UIView()
-        //        prevbutton.backgroundColor = .red
-        
         let space = UIView()
         space.backgroundColor = UIColor(red: 30/256, green: 30/256, blue: 30/256, alpha: 1)
-        
-        //        let homebutton = UIView()
-        //        homebutton.backgroundColor = .blue
         
         let topControlsStackView = UIStackView(arrangedSubviews: [previousButton,space,homeButton])
         topControlsStackView.translatesAutoresizingMaskIntoConstraints = false
@@ -136,7 +123,6 @@ class ViewController: UIViewController,UIWebViewDelegate {
         mywebview.autoresizingMask =  [.flexibleWidth, .flexibleHeight]
         mywebview.delegate = self
         self.view.addSubview(mywebview)
-        
         if let url = URL(string: (self.obj?.result)!) {
             let request = URLRequest(url: url)
             mywebview.loadRequest(request)
