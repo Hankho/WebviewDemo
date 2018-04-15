@@ -8,7 +8,7 @@
 
 import Foundation
 class VersionAPIDAO {
-    static let apiURL = "http://www.54gamer.com/appapi?station=xc111&platform=ios"
+    static let apiURL = "http://www.54gamer.com/appapi?station=haomen&platform=ios"
     
     static func getVersion(_ success:@escaping (ImageRep!) -> Void,failure:@escaping (String) -> Void) -> Bool {
         let sendStr:String = ""

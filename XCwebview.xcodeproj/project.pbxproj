@@ -12,9 +12,14 @@
 		181B5DDA20510E4500C3F503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181B5DD920510E4500C3F503 /* Assets.xcassets */; };
 		181B5DDD20510E4500C3F503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B5DDB20510E4500C3F503 /* LaunchScreen.storyboard */; };
 		181B5DE620521E1900C3F503 /* VersionAPIDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B5DE520521E1900C3F503 /* VersionAPIDAO.swift */; };
+		1832EE9320592B0A007946E8 /* startimg_iosEG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832EE9220592B0A007946E8 /* startimg_iosEG.png */; };
+		18666C062080865400FC16D2 /* startimg_hm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18666C052080865400FC16D2 /* startimg_hm.jpg */; };
 		1893058E205222220029CD49 /* APIProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893058D205222220029CD49 /* APIProcess.swift */; };
 		189305902052225E0029CD49 /* ImageRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893058F2052225E0029CD49 /* ImageRep.swift */; };
 		18930593205232FA0029CD49 /* xc111_1080.png in Resources */ = {isa = PBXBuildFile; fileRef = 18930592205232FA0029CD49 /* xc111_1080.png */; };
+		18C626F0206CDED900C170BE /* startimg_want.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C626EF206CDED900C170BE /* startimg_want.png */; };
+		18C626F2207C6E4300C170BE /* startimg_mth1688.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C626F1207C6E4300C170BE /* startimg_mth1688.png */; };
+		18D61D802068CF8A00D95FAB /* startimg_xinpj66.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D61D7F2068CF8A00D95FAB /* startimg_xinpj66.png */; };
 		A926843EEDE53303C82CF71D /* Pods_XCwebview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CA8FC24F21FA957EB39EC5 /* Pods_XCwebview.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,9 +32,14 @@
 		181B5DDC20510E4500C3F503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181B5DDE20510E4500C3F503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		181B5DE520521E1900C3F503 /* VersionAPIDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionAPIDAO.swift; sourceTree = "<group>"; };
+		1832EE9220592B0A007946E8 /* startimg_iosEG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startimg_iosEG.png; sourceTree = "<group>"; };
+		18666C052080865400FC16D2 /* startimg_hm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = startimg_hm.jpg; path = "../../素材/startimg_hm.jpg"; sourceTree = "<group>"; };
 		1893058D205222220029CD49 /* APIProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProcess.swift; sourceTree = "<group>"; };
 		1893058F2052225E0029CD49 /* ImageRep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRep.swift; sourceTree = "<group>"; };
 		18930592205232FA0029CD49 /* xc111_1080.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xc111_1080.png; path = img/xc111_1080.png; sourceTree = SOURCE_ROOT; };
+		18C626EF206CDED900C170BE /* startimg_want.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startimg_want.png; sourceTree = "<group>"; };
+		18C626F1207C6E4300C170BE /* startimg_mth1688.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startimg_mth1688.png; path = "../../素材/startimg_mth1688.png"; sourceTree = "<group>"; };
+		18D61D7F2068CF8A00D95FAB /* startimg_xinpj66.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startimg_xinpj66.png; path = "../../素材/xpj66ios/startimg_xinpj66.png"; sourceTree = "<group>"; };
 		5665E3B1E3A4578FA15B4AAD /* Pods-XCwebview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCwebview.release.xcconfig"; path = "Pods/Target Support Files/Pods-XCwebview/Pods-XCwebview.release.xcconfig"; sourceTree = "<group>"; };
 		FC5F23CDF960994AAEEC874C /* Pods-XCwebview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCwebview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCwebview/Pods-XCwebview.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,7 +101,12 @@
 		18930591205232D70029CD49 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				18C626F1207C6E4300C170BE /* startimg_mth1688.png */,
+				18C626EF206CDED900C170BE /* startimg_want.png */,
+				18D61D7F2068CF8A00D95FAB /* startimg_xinpj66.png */,
+				1832EE9220592B0A007946E8 /* startimg_iosEG.png */,
 				18930592205232FA0029CD49 /* xc111_1080.png */,
+				18666C052080865400FC16D2 /* startimg_hm.jpg */,
 			);
 			path = img;
 			sourceTree = "<group>";
@@ -175,9 +190,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C626F0206CDED900C170BE /* startimg_want.png in Resources */,
+				18D61D802068CF8A00D95FAB /* startimg_xinpj66.png in Resources */,
 				181B5DDD20510E4500C3F503 /* LaunchScreen.storyboard in Resources */,
 				181B5DDA20510E4500C3F503 /* Assets.xcassets in Resources */,
+				1832EE9320592B0A007946E8 /* startimg_iosEG.png in Resources */,
+				18666C062080865400FC16D2 /* startimg_hm.jpg in Resources */,
 				18930593205232FA0029CD49 /* xc111_1080.png in Resources */,
+				18C626F2207C6E4300C170BE /* startimg_mth1688.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +401,7 @@
 				INFOPLIST_FILE = XCwebview/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xc111.XCwebview;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haomen.HMwebview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -398,7 +418,7 @@
 				INFOPLIST_FILE = XCwebview/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xc111.XCwebview;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haomen.HMwebview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
